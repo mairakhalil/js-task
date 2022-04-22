@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p> 1. How do I make the left div align to left and right div align to right</p>
+    <div class="leftrightdiv">
+        <div class="left">
+            <h2>LEFT DIV</h2>
+        </div>
+        <div class="right">
+            <h2>RIGHT DIV</h2>
+        </div>
+    </div>
+    <br>
+
+    2.I have a div with an image.
+    I want a bubble on top right with word NEW and rounded corners.
+    overlap the top right corner.
+    <div class="circle">
+        <h2>new</h2>
+    </div>
+    <div><img src="download.jfif" alt="image" width="20%"></div>
+    <br>
+
+    3.Make a triangle in CSS below
+    <div class="triangle"></div>
+    </div>
+    <br>
+
+    4.Make a button clickable and do the following actions:
+    a) When clicked, show an alert box saying "Button Clicked"
+    b) Change the button color red
+    c) Add a table below the button
+    <div>
+        <button id="btn" onclick="btnclicked()">Click me</button>
+    </div>
+    <table id="displaytable" style="display: none;">
+        <tr>
+            <th>Name</th>
+            <th>Degree</th>
+            <th>Occupation</th>
+        </tr>
+        <tr>
+            <td>Maira Khushnood</td>
+            <td>BS(IT)</td>
+            <td>Frontend Web Developer</td>
+        </tr>
+    </table>
+    <script>
+        function btnclicked() {
+            alert("Button Clicked");
+            document.getElementById("btn").style.backgroundColor = "red";
+            var x = document.getElementById("displaytable");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

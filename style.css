@@ -1,0 +1,45 @@
+.leftrightdiv{
+    display:flex;
+    justify-content: space-between; 
+}
+.left{
+    background-color: lightblue;
+}
+.right{
+    background-color: lightcoral;  
+}
+.triangle{
+    height:0;
+    width:0;
+    border-bottom: 50px solid red;
+    border-left: 30px solid white;
+    border-right: 30px solid white;
+    margin-left: 50px;
+}
+.bubble{
+    top:80px
+}
+.circle{
+    position: relative;
+    left:14rem;
+    top:25px;
+    width:5%;
+    height:50px;
+    background-color: rgb(255, 145, 42);
+    border-radius: 40%;
+    text-align: center;
+}
+.circle h2{
+    padding-top: 10px;    
+}
+button{
+    background-color: lightblue;
+    text-transform: uppercase;
+    padding:7px;
+    border-radius: 3px;
+    border: none;
+}
+th, td {
+    border:1px solid black;
+}
+
